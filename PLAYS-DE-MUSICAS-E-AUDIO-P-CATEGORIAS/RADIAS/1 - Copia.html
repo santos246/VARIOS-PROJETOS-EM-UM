@@ -1,0 +1,605 @@
+﻿
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>MÚSICAS PLAY</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel=”stylesheet” href=”nome_do_arquivo_css.css”>
+
+<link rel="sortcut icon" href="https://img.ibxk.com.br/2015/8/programas/132938817.png" type="image/gif" />
+<meta name="author" content="santos.12164@hotmail.com">
+<meta name="description" content="MÚSICAS PLAY">
+<meta name="keywords" content="MÚSICAS PLAY">
+<center>
+<!-------------------------------------------------------------->
+<!------------------------------
+https://www.radio-ao-vivo.com/radio/ceara
+https://www.google.com/search?client=opera&q=RADIAS&sourceid=opera&ie=UTF-8&oe=UTF-8
+https://www.radios.com.br
+
+
+
+-------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+.topnav a {
+  float: left;
+  color: #01DF01;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+.topnav a.active {
+  background-color: #01DF01;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+
+  <a href="../index.html">🏠</a>
+  <a class="active" href="../RADIAS/1 - Copia.html">RÁDIAS</a>
+  <a href="../BREGAS/1 - Copia.html">BREGAS</a>
+  <a href="../SAMBAS/1 - Copia.html">SAMBAS</a>
+  <a href="../MPB/1 - Copia.html">MPB</a>
+  <a href="../PAGODE/1 - Copia.html">PAGODE</a>
+  <a href="../SERTANEJAS/1 - Copia.html">SERTANEJAS</a>
+  <a href="../SERESTAS/1 - Copia.html">SERESTAS</a>
+  <a href="../FORRO/1 - Copia.html">FORRÓ</a>
+  <a href="../INTERNACIONAIS/1 - Copia.html">INTERNACIONAIS</a>
+  <a href="../COLETANEAS/1 - Copia.html">COLETANEAS P/ CANTOR</a>
+  <a href="../INTERNACIONAIS/1 - Copia.html">INTERNACIONAIS</a>
+  <a href="../INTERNACIONAIS/1 - Copia.html">INTERNACIONAIS</a>
+
+
+
+</div>
+<div style="padding-left:16px">
+</div>
+</body>
+</html>
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<h1><img src="https://img.ibxk.com.br/2015/8/programas/132938817.png" width="50">
+MÚSICAS PLAY</h1>
+<h2>BEM VINDO</h2>
+<p>Músicas online</p><HR/>
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MÚSICAS PLAY</title>
+  <!-- Load FontAwesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CSS style -->
+  <style>
+    body {
+      background-color: lightgreen;
+      /* Smoothly transition the background color */
+      transition: background-color .5s;
+    }
+    .player {
+      height: 95vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .details {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 25px;
+    }
+    .track-art {
+      margin: 25px;
+      height: 250px;
+      width: 250px;
+      background-image: url("https://images.pexels.com/photos/262034/pexels-photo-262034.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+      background-size: cover;
+      border-radius: 15%;
+    }
+    .now-playing {
+      font-size: 1rem;
+    }
+    .track-name {
+      font-size: 3rem;
+    }
+    .track-artist {
+      font-size: 1.5rem;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .playpause-track,
+    .prev-track,
+    .next-track {
+      padding: 25px;
+      opacity: 0.8;
+      /* Smoothly transition the opacity */
+      transition: opacity .2s;
+    }
+    .playpause-track:hover,
+    .prev-track:hover,
+    .next-track:hover {
+      opacity: 1.0;
+    }
+    .slider_container {
+      width: 75%;
+      max-width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    /* Modify the appearance of the slider */
+    .seek_slider,
+    .volume_slider {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      height: 5px;
+      background: black;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+    /* Modify the appearance of the slider thumb */
+    .seek_slider::-webkit-slider-thumb,
+    .volume_slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      background: white;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .seek_slider:hover,
+    .volume_slider:hover {
+      opacity: 1.0;
+    }
+    .seek_slider {
+      width: 60%;
+    }
+    .volume_slider {
+      width: 30%;
+    }
+    .current-time,
+    .total-duration {
+      padding: 10px;
+    }
+    i.fa-volume-down,
+    i.fa-volume-up {
+      padding: 10px;
+    }
+    i.fa-play-circle,
+    i.fa-pause-circle,
+    i.fa-step-forward,
+    i.fa-step-backward {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="player">
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">MÚSICAS PLAY</div>
+      <div class="track-artist">SANTOS</div>
+    </div>
+    <div class="buttons">
+      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+    </div>
+    <div class="slider_container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+      <div class="total-duration">00:00</div>
+    </div>
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+  </div>
+  <!-- Main script for the player -->
+  <script>
+    let now_playing = document.querySelector(".now-playing");
+    let track_art = document.querySelector(".track-art");
+    let track_name = document.querySelector(".track-name");
+    let track_artist = document.querySelector(".track-artist");
+    let playpause_btn = document.querySelector(".playpause-track");
+    let next_btn = document.querySelector(".next-track");
+    let prev_btn = document.querySelector(".prev-track");
+    let seek_slider = document.querySelector(".seek_slider");
+    let volume_slider = document.querySelector(".volume_slider");
+    let curr_time = document.querySelector(".current-time");
+    let total_duration = document.querySelector(".total-duration");
+    let track_index = 0;
+    let isPlaying = false;
+    let updateTimer;
+    // Create new audio element
+    let curr_track = document.createElement('audio');
+    // Define the tracks that have to be played
+    let track_list = [
+<!------------------------------------------------------->
+ <!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+      {
+        name: "Rádios São Paulo ",
+        artist: "Antena 1 FM ao vivo",
+        image: "https://static.mytuner.mobi/media/tvos_radios/dH7Ea6pCs6.jpg",
+        path: "https://antenaone.crossradio.com.br/stream/1;"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Rádios São Paulo Hunter.FM ",
+        artist: "Sertanejo ao vivo",
+        image: "https://static.mytuner.mobi/media/tvos_radios/yuthE2Qr2f.jpg",
+        path: "https://live.hunter.fm/sertanejo_normal"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Rádios São Paulo Sertanejo",
+        artist: "FM ao vivo",
+        image: "https://static.mytuner.mobi/media/tvos_radios/mqqxwckzptry.png",
+        path: "https://stream-33.zeno.fm/p57watz7u18uv?zs=CCvHm25uRFWR5Xj5mlBiiQ"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Rádios São Paulo Hits40Station",
+        artist: "ao vivo",
+        image: "https://static.mytuner.mobi/media/tvos_radios/hBuVh2PfQQ.png",
+        path: "https://str3.openstream.co/1084?aw_0_1st.collectionid%3D3908%26stationId%3D3908%26publisherId%3D1108%26k%3D1658663212%26aw_0_azn.pcountry%3D%5B%22BR%22%2C%22CO%22%2C%22CL%22%2C%22MX%22%2C%22US%22%2C%22FR%22%2C%22DE%22%2C%22JP%22%2C%22PE%22%2C%22AR%22%2C%22PT%22%2C%22GB%22%5D%26aw_0_azn.planguage%3D%5B%22pt%22%2C%22en%22%2C%22es%22%2C%22fr%22%2C%22it%22%5D%26aw_0_azn.pgenre%3D%5B%22Top40%5C%2FHits+-+Pop%22%2C%22Rock%22%2C%22Electronic%22%5D"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Adoro Flashback",
+        artist: "Somente Web / Brasil",
+        image: "https://img.radios.com.br/radio/lg/radio151308_1593879965.jpg",
+        path: "https://server01.ouvir.radio.br:8018/stream?1658664277020"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Rádio Mix 106.3 FM",
+        artist: "São Paulo / SP - Brasil",
+        image: "https://img.radios.com.br/radio/lg/radio13955_1532353280.png",
+        path: "https://22203.live.streamtheworld.com/MIXFM_SAOPAULOAAC.aac?1658664274092"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Sertanejo Total",
+        artist: "Porto Alegre / RS - Brasil",
+        image: "https://img.radios.com.br/radio/lg/radio113759_1562794983.jpg",
+        path: "https://stream01.ouveai.com.br:1030/stream?1658664271861"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Rádio Clube 105.5 FM",
+        artist: "Brasília / DF - Brasil",
+        image: "https://img.radios.com.br/radio/lg/radio11839_1658250334.png",
+        path: "https://f22.fabricahost.com.br/clubefm1055bsb?f=1658664278Nd2cd18ceafc3ba1fb14b76ebb9596502&r=aHR0cHM6Ly93d3cucmFkaW9zLmNvbS5ici8="
+      },
+<!------------------------------------------------------->
+      {
+        name: "Rádio Ferrari One",
+        artist: "Fortaleza / CE - BrasilA N°1 do Brasil",
+        image: "https://img.radios.com.br/radio/lg/radio149478_1651858287.jpeg",
+        path: "http://stm20.tecradio.com.br:8214/stream?1658668128340"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Rádio CBN São Paulo 90.5 FM",
+        artist: "São Paulo / SP - Brasil A rádio que toca notícia",
+        image: "https://img.radios.com.br/radio/lg/radio8816_1573682720.jpg",
+        path: "https://24383.live.streamtheworld.com/CBN_SP_ADP/HLS/bbd6b677-ab29-4e0a-9748-bd2ea5454104/0/1.aac"
+      },
+<!------------------------------------------------------->
+      {
+        name: "NOME1🔴",
+        artist: "ARTISTA🔴",
+        image: "IMAGEM🔴",
+        path: "MP3🔴"
+      },
+<!------------------------------------------------------->
+      {
+        name: "NOME1🔴",
+        artist: "ARTISTA🔴",
+        image: "IMAGEM🔴",
+        path: "MP3🔴"
+      },
+<!------------------------------------------------------->
+      {
+        name: "NOME1🔴",
+        artist: "ARTISTA🔴",
+        image: "IMAGEM🔴",
+        path: "MP3🔴"
+      },
+<!------------------------------------------------------->
+      {
+        name: "NOME1🔴",
+        artist: "ARTISTA🔴",
+        image: "IMAGEM🔴",
+        path: "MP3🔴"
+      },
+<!------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------->
+      {
+        name: "NOME1🔴",
+        artist: "ARTISTA🔴",
+        image: "IMAGEM🔴",
+        path: "MP3🔴"
+      },
+<!------------------------------------------------------->
+      {
+        name: "NOME1🔴",
+        artist: "ARTISTA🔴",
+        image: "IMAGEM🔴",
+        path: "MP3🔴"
+      },
+<!------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------->
+    ];
+    function loadTrack(track_index) {
+      clearInterval(updateTimer);
+      resetValues();
+      // Load a new track
+      curr_track.src = track_list[track_index].path;
+      curr_track.load();
+      // Update details of the track
+      track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
+      track_name.textContent = track_list[track_index].name;
+      track_artist.textContent = track_list[track_index].artist;
+      now_playing.textContent = "PLAYER " + (track_index + 1) + " DE " + track_list.length;
+      // Set an interval of 1000 milliseconds for updating the seek slider
+      updateTimer = setInterval(seekUpdate, 1000);
+      // Move to the next track if the current one finishes playing
+      curr_track.addEventListener("ended", nextTrack);
+      // Apply a random background color
+      random_bg_color();
+    }
+    function random_bg_color() {
+      // Get a random number between 64 to 256 (for getting lighter colors)
+      let red = Math.floor(Math.random() * 256) + 64;
+      let green = Math.floor(Math.random() * 256) + 64;
+      let blue = Math.floor(Math.random() * 256) + 64;
+      // Construct a color withe the given values
+      let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
+      // Set the background to that color
+      document.body.style.background = bgColor;
+    }
+    // Reset Values
+    function resetValues() {
+      curr_time.textContent = "00:00";
+      total_duration.textContent = "00:00";
+      seek_slider.value = 0;
+    }
+    function playpauseTrack() {
+      if (!isPlaying) playTrack();
+      else pauseTrack();
+    }
+    function playTrack() {
+      curr_track.play();
+      isPlaying = true;
+      // Replace icon with the pause icon
+      playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+    }
+    function pauseTrack() {
+      curr_track.pause();
+      isPlaying = false;
+      // Replace icon with the play icon
+      playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';;
+    }
+    function nextTrack() {
+      if (track_index < track_list.length - 1)
+        track_index += 1;
+      else track_index = 0;
+      loadTrack(track_index);
+      playTrack();
+    }
+    function prevTrack() {
+      if (track_index > 0)
+        track_index -= 1;
+      else track_index = track_list.length;
+      loadTrack(track_index);
+      playTrack();
+    }
+    function seekTo() {
+      seekto = curr_track.duration * (seek_slider.value / 100);
+      curr_track.currentTime = seekto;
+    }
+    function setVolume() {
+      curr_track.volume = volume_slider.value / 100;
+    }
+    function seekUpdate() {
+      let seekPosition = 0;
+      // Check if the current track duration is a legible number
+      if (!isNaN(curr_track.duration)) {
+        seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+        seek_slider.value = seekPosition;
+        // Calculate the time left and the total duration
+        let currentMinutes = Math.floor(curr_track.currentTime / 60);
+        let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+        let durationMinutes = Math.floor(curr_track.duration / 60);
+        let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+        // Adding a zero to the single digit time values
+        if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+        if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+        if (currentMinutes < 10) { currentMinutes = "0" + currentMinutes; }
+        if (durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
+        curr_time.textContent = currentMinutes + ":" + currentSeconds;
+        total_duration.textContent = durationMinutes + ":" + durationSeconds;
+      }
+    }
+    // Load the first track in the tracklist
+    loadTrack(track_index);
+  </script>
+</body>
+</html>
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+</div>
+<div class="w3-cell-row">
+<!----------------------------------
+  <div class="w3-container w3-red w3-cell w3-mobile">
+    <p>Hello W3.CSS Layout.</p>
+  </div>
+  <div class="w3-container w3-green w3-cell w3-mobile">
+    <p>Hello W3.CSS Layout.</p>
+  </div>
+  <div class="w3-container w3-blue w3-cell w3-mobile">
+    <p>Hello W3.CSS Layout. Hello W3.CSS Layout.</p>
+  </div>
+--------------------------------------->
+</div>
+</body>
+</html>
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+</style>
+</head>
+<body>
+</body>
+</html>
+<!-------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+</body>
+</html>
+<!-------------------------PAGINAÇÃO----
+<HR WIDTH="80%">
+<html>
+<head>
+<style>
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: #FFFFFF;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 3px solid #01DF01;
+  font-size: 22px;
+}
+.pagination a.active {
+  background-color: #01DF01;
+  color: RED;
+  border: 3px solid #DF0101;
+}
+.pagination a:hover:not(.active) {background-color: #DF0101;}
+</style>
+</head>
+<body>
+<div class="pagination">
+
+<a href="1 - Copia.html" class="active">1</a>
+<a href="1 - Copia (2).html">2</a>
+<a href="1 - Copia (3).html">3</a>
+
+</div>
+</body>
+</html><HR WIDTH="80%">
+
+<HR NOSHADE SIZE="3" color="red"><HR NOSHADE SIZE="10" color="red"><HR NOSHADE SIZE="3" color="red">
+<html><a href="#top"><H3>VOLTAR AO TOPO</H3></a></html>	</body></html>
+----------------------------------->
+<BR/><BR/><BR/>
+<HR SIZE="2">
+<marquee>Fale comigo por WHATSAPP "85"9 8888-5153  Santos*, e só clicar no link abaixo<br></marquee>
+<a href="
+https://wa.me/5585988885153?text=SANTOS+QUERO+DIZER+QUE+...
+" target="_blank"><h2>
+<img src="https://static.wixstatic.com/media/7c7e48_39c88197341146b1ad774494bae6731e~mv2.gif" width="30">FALE COMIGO*
+</h2></a>
+<HR NOSHADE SIZE="3" color="red">
+<HR NOSHADE SIZE="5" color="#00ff00">©️<br/><br/><br/></center>
+
+</body>
+</html> 
+
+
+
